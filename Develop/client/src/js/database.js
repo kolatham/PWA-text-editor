@@ -26,7 +26,7 @@ export const putDb = async (content) => {
   const result = await request;
   console.log('result.value', result);
   return result;
-};
+}
 
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
@@ -37,11 +37,11 @@ export const getDb = async () => {
 
   const store = tx.objectStore('jate');
 
-  const request = store.getAll();
+  const request = store.get(1);
 
   const result = await request;
   console.log('result.value', result);
   return result;
-};
+}
 
 initdb();
