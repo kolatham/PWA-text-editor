@@ -4,19 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-<<<<<<< HEAD
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "",
     "server": "",
     "build": "",
     "install": "cd client && npm install",
-=======
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
->>>>>>> 0f292cd0f2dcc9f72a74c7782cff8160c910be4f
     "client": ""
   },
   "keywords": [],
@@ -28,11 +20,7 @@
   },
   "devDependencies": {
     "concurrently": "^7.0.0",
-<<<<<<< HEAD
     "nodemon": "^2.0.4",
     "webpack-pwa-manifest": "^4.3.0"
-=======
-    "nodemon": "^2.0.4"
->>>>>>> 0f292cd0f2dcc9f72a74c7782cff8160c910be4f
   }
 }
