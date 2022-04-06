@@ -1,9 +1,6 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "engines":{
-    "node": "16.13.1"
-  },
   "description": "",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
@@ -17,7 +14,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
+    "concurrently": "^7.0.0",
     "nodemon": "^2.0.4"
   }
 }
+
